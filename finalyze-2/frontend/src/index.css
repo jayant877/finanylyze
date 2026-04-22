@@ -1,0 +1,13 @@
+/* Tailwind's three layers:
+   base     = resets and global defaults
+   components = reusable component classes
+   utilities  = all the utility classes like bg-blue-500, text-sm etc. */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for the results panel */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #1e293b; }
+::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
